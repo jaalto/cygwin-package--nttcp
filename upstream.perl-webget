@@ -1,0 +1,2 @@
+tag1: nttcp
+  http://packages.debian.org/unstable/nttcp pregexp:orig.tar.gz file:nttcp_1.47.orig.tar.gz new: x:

@@ -1,0 +1,8 @@
+sdesc: "New test TCP program"
+ldesc: "Improved version of the ttcp program. It simulates inetd behaviour to
+start off the remote side program which will send/receive data. Both
+sides measure the time and number of bytes transfered. The local side
+will print the measures. The format of the output can be specified on
+the commandline."
+category: Net
+requires: cygwin

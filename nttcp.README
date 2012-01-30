@@ -1,0 +1,72 @@
+nttcp
+------------------------------------------
+
+New test TCP program
+
+Improved version of the ttcp program. It simulates inetd behaviour to
+start off the remote side program which will send/receive data. Both
+sides measure the time and number of bytes transfered. The local side
+will print the measures. The format of the output can be specified on
+the commandline.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://packages.debian.org/nttcp
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  <There is no upstream>
+  Maintainer:
+  Bugs:
+
+License:
+  Custom
+
+  nttcp.c:
+  Permission to use, copy, modify and distribute this software
+  and its documentation for any purpose, except making money+, is
+  herby granted, provided that the above copyright notice and
+  this permission appears in all places, where this code is
+  referenced or used literally.
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack nttcp-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./nttcp*.sh all
+
+-------------------------------------------
+
+Files included in the binary distribution:
+  See content of *.tar.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.47-1 -----
+- Initial release 2007-12-12 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007-2008 Jari Aalto; Licensed under GPL v2 or later
