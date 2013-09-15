@@ -1,6 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: nttcp 1.47-1 -- New test TCP program
+Subject: Updated: nttcp 1.47-2 -- New test TCP program
 
 PACKAGE DESCRIPTION
 ===================
@@ -17,6 +16,7 @@ the commandline.
 CHANGES SINCE LAST RELEASE
 ==========================
 
+Cygwin internal packaging changes
 See /usr/share/doc/nttcp-*/README
 
 INSTALL OR UPGRADE NOTES
